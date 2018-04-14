@@ -1,9 +1,10 @@
 This repository has  **basic** settings for building React application.  
-It is designed to self use and propably gonna grow with time.
+It is designed for self use and propably gonna grow with time.
 #
 Build in settings:
 - React / ReactDOM
 - Parcel Bundler
+- Jest (with ES6 Syntax tolerance)
 - separated ./src/components directory
 
 + no css framework   
@@ -15,7 +16,5 @@ Entry point:
 
 # 
 TODO:
-+ add jest 
-+ config bundling ES6 syntax for jest
 + add Redux
-+ add webpack
++ add webpack 
