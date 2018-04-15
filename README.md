@@ -5,6 +5,7 @@ Build in settings:
 - React / ReactDOM
 - Parcel Bundler
 - Jest (with ES6 Syntax tolerance)
+- Redux (with connect-component example)
 - separated ./src/components directory
 
 + no css framework   
@@ -16,5 +17,4 @@ Entry point:
 
 # 
 TODO:
-+ add Redux
 + add webpack 
