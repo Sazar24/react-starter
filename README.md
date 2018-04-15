@@ -21,6 +21,7 @@ TODO:
 
 #
 Quick start:  
+
 Clone the git repo: `git clone https://github.com/Sazar24/react-starter name_of_new_project`  
 Run `npm i` to install depedencies.  
 `npm start` to run server at localhost.  
