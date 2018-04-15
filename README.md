@@ -22,8 +22,35 @@ TODO:
 #
 Quick start:  
 
-Clone the git repo: `git clone https://github.com/Sazar24/react-starter name_of_new_project`
-`cd name_of_new_project`
+Clone the git repo:  
+`git clone https://github.com/Sazar24/react-starter name_of_new_project`  
+`cd name_of_new_project`  
 Run `npm i` to install depedencies.  
 `npm start` to run server at localhost.  
-`npm test` or `jest --watch` to run test.
+`npm test` or `jest --watch` to run test.  
+  
+#
+Saving changes:  
+
+To push commits to another repo, firstly run:  
+`git remote set-url origin http://github.com/YOU/YOUR_REPO`
+now you cant run `git push` .
+
+#
+
+Removing commits history (simple, but brutal - and **not perfect**! - way):  
+
+-- Remove the history from repo - locally:   
+
+`rm -rf .git`  
+
+-- recreate the repo from the current content only 
+
+`git init`  
+`git add .`  
+`git commit -m "Initial commit"`  
+  
+-- push to the github remote reps ensuring you overwrite history  
+
+`git remote add origin git@github.com:<YOUR ACCOUNT>/<YOUR REPOS>.git`  
+`git push -u origin master`  
