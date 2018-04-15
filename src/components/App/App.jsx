@@ -8,10 +8,9 @@ export class App extends React.Component {
         return (
             <div className="app">
                 <h1> hello, human! </h1>
-                This is just a simple template, or starter or even boilerplate -if you wish to call that :) <br />
+                This is just a simple template, or starter or even boilerplate -if you wish to call that so :) <br />
                 It contains a simple redux template-App, with multiReducer already plugged-in. <br />
-                Propably I'll put into this project more things with time, like depencies and example of Front/react-components tests.<br />
-                More informations is in README file.
+                Propably I'll put into this project more things with time.
                 <br />
                 Good luck!
                 <br />
