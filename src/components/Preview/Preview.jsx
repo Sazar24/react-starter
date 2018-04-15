@@ -6,8 +6,8 @@ class Preview extends React.Component {
     render() {
         return (
             <div>
-                Text you have entered in another component and passed
-                 by reduxStore is: {this.props.text}
+                Text you have entered in another component and passed here
+                by reduxStore is: {this.props.text}
             </div>
         )
     }
