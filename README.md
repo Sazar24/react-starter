@@ -1,5 +1,5 @@
 This repository has  **basic** settings for building React application.  
-It is designed for self use and propably gonna grow with time.
+It is designed for self use and probably gonna grow with time.
 #
 Build in settings:
 - React / ReactDOM
@@ -25,7 +25,7 @@ Quick start:
 Clone the git repo:  
 `git clone https://github.com/Sazar24/react-starter name_of_new_project`  
 `cd name_of_new_project`  
-Run `npm i` to install depedencies.  
+Run `npm i` to install dependencies.  
 `npm start` to run server at localhost.  
 `npm test` or `jest --watch` to run test.  
   
@@ -50,7 +50,7 @@ Removing commits history (simple, but brutal - and **not perfect**! - way):
 `git add .`  
 `git commit -m "Initial commit"`  
   
--- push to the github remote reps ensuring you overwrite history  
+-- push to the github remote repo ensuring you overwrite history  
 
 `git remote add origin git@github.com:<YOUR ACCOUNT>/<YOUR REPOS>.git`  
 `git push -u origin master`  
